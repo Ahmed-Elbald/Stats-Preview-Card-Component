@@ -45,8 +45,7 @@ img {
 }
 
 body {
-  text-transform: capitalize;
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.8;
   background-color: $bodyBg;
   min-height: 100vh;
@@ -87,7 +86,7 @@ button {
 
     &::before {
       content: "";
-      @include overlay(hsl(277deg 81% 45% / 55%), .55)
+      @include overlay(rgba(102, 4, 163, 0.55), .55)
     }
   }
 
@@ -158,6 +157,7 @@ button {
       }
 
       .stat-box {
+        font-family: 'Lexend Deca', sans-serif;
         flex-direction: row;
         align-self: flex-start;
         align-items: center;

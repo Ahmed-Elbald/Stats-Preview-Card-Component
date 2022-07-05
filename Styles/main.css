@@ -39,8 +39,7 @@ img {
 }
 
 body {
-  text-transform: capitalize;
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.8;
   background-color: #090b1a;
   min-height: 100vh;
@@ -85,7 +84,7 @@ button {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(136, 22, 208, 0.55);
+  background-color: rgba(102, 4, 163, 0.55);
 }
 .card .card-details {
   background-color: #1b1938;
@@ -147,6 +146,7 @@ button {
     font-size: 1rem;
   }
   .card .card-details .stat-box {
+    font-family: "Lexend Deca", sans-serif;
     flex-direction: row;
     align-self: flex-start;
     align-items: center;
