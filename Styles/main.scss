@@ -87,7 +87,7 @@ button {
 
     &::before {
       content: "";
-      @include overlay($accentColor, .5)
+      @include overlay(hsl(277deg 81% 45% / 55%), .55)
     }
   }
 
